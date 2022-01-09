@@ -13,7 +13,7 @@ class LaCentrale(object):
 		self.base = "https://www.lacentrale.fr/"
 		self.url = "https://www.lacentrale.fr/listing"
 		self.argus = "https://www.lacentrale.fr/lacote_origine.php"
-		self.webhook = "https://discordapp.com/api/webhooks/681509420244795422/NV5CjbzmB7DVbkdZtzShuM-Gqss1775pcc97jNMgeqxx0qKa9hDeS9ek2an_3ZCwYJJd?wait=true"
+		self.webhook = "https://discordapp.com/api/webhooks/"
 		self.s = requests.session()
 		self.fake = Faker(["fr_FR"])
 		self.myclient = pymongo.MongoClient("mongodb://localhost:27017/")
